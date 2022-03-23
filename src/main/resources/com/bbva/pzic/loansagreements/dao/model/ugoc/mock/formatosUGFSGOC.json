@@ -1,0 +1,33 @@
+[
+  {
+    "idafil" : "AF0001",
+    "desafil" : "Afiliacion 0001",
+    "tipafil" : "AS",
+    "tipoenv" : "F",
+    "conmail" : "C",
+    "idemail" : "b@b.b",
+    "estafil" : "A"
+  },
+  {
+    "idafil" : "AF0002",
+    "desafil" : "Afiliacion 0002",
+    "tipafil" : "AS",
+    "tipoenv" : "D",
+    "conmail" : "C",
+    "idemail" : "a@c.c",
+    "estafil" : "I"
+  },
+  {
+    "idafil" : "AF0003",
+    "desafil" : "Afiliacion 0003",
+    "tipafil" : "AS",
+    "tipoenv" : "F",
+    "conmail" : "C",
+    "idemail" : "c@c.c",
+    "estafil" : "A"
+  },
+  {
+
+  }
+]
+	

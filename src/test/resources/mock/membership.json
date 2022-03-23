@@ -1,0 +1,33 @@
+{
+  "membershipType": "PAYROLL_ADVANCE",
+  "relatedContracts": [
+    {
+      "contractId": "87889-989",
+      "number": "87859888",
+      "numberType": {
+        "id": "LIC"
+      },
+      "product": {
+        "id": "01",
+        "productType": {
+          "id": "ACCOUNTS"
+        },
+        "relationType": {
+          "id": "RECEIVING_ACCOUNT"
+        }
+      }
+    }
+  ],
+  "deliveries": [
+    {
+      "deliveryType": "DIGITAL",
+      "documentType": "CONTRACT",
+      "contactDetails": [
+        {
+          "id": "4878"
+        }
+      ]
+    }
+  ],
+  "status" : "ACTIVE"
+}

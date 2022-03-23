@@ -1,0 +1,32 @@
+{
+  "membershipType": "AS",
+  "relatedContracts": [
+    {
+      "contractId": "87889-989",
+      "number": "87859888",
+      "numberType": {
+        "id": "LIC"
+      },
+      "product": {
+        "id": "01",
+        "productType": {
+          "id": "C"
+        },
+        "relationType": {
+          "id": "P"
+        }
+      }
+    }
+  ],
+  "deliveries": [
+    {
+      "deliveryType": "D",
+      "documentType": "C",
+      "contactDetails": [
+        {
+          "id": "4878"
+        }
+      ]
+    }
+  ]
+}

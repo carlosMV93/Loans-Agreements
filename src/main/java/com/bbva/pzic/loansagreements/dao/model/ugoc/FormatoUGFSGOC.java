@@ -1,0 +1,65 @@
+package com.bbva.pzic.loansagreements.dao.model.ugoc;
+
+import com.bbva.jee.arq.spring.core.host.Campo;
+import com.bbva.jee.arq.spring.core.host.TipoCampo;
+import com.bbva.jee.arq.spring.core.host.Formato;
+
+import org.springframework.roo.addon.javabean.annotations.RooJavaBean;
+import org.springframework.roo.addon.javabean.annotations.RooSerializable;
+import org.springframework.roo.addon.javabean.annotations.RooToString;
+
+
+/**
+ * Formato de datos <code>UGFSGOC</code> de la transacci&oacute;n <code>UGOC</code>
+ *
+ * @author Arquitectura Spring BBVA
+ */
+@Formato(nombre = "UGFSGOC")
+@RooJavaBean
+@RooToString
+@RooSerializable
+public class FormatoUGFSGOC {
+
+	/**
+	 * <p>Campo <code>IDAFIL</code>, &iacute;ndice: <code>1</code>, tipo: <code>ALFANUMERICO</code>
+	 */
+	@Campo(indice = 1, nombre = "IDAFIL", tipo = TipoCampo.ALFANUMERICO, longitudMinima = 8, longitudMaxima = 8)
+	private String idafil;
+
+	/**
+	 * <p>Campo <code>DESAFIL</code>, &iacute;ndice: <code>2</code>, tipo: <code>ALFANUMERICO</code>
+	 */
+	@Campo(indice = 2, nombre = "DESAFIL", tipo = TipoCampo.ALFANUMERICO, longitudMinima = 20, longitudMaxima = 20)
+	private String desafil;
+
+	/**
+	 * <p>Campo <code>TIPAFIL</code>, &iacute;ndice: <code>3</code>, tipo: <code>ALFANUMERICO</code>
+	 */
+	@Campo(indice = 3, nombre = "TIPAFIL", tipo = TipoCampo.ALFANUMERICO, longitudMinima = 2, longitudMaxima = 2)
+	private String tipafil;
+
+	/**
+	 * <p>Campo <code>TIPOENV</code>, &iacute;ndice: <code>4</code>, tipo: <code>ALFANUMERICO</code>
+	 */
+	@Campo(indice = 4, nombre = "TIPOENV", tipo = TipoCampo.ALFANUMERICO, longitudMinima = 1, longitudMaxima = 1)
+	private String tipoenv;
+
+	/**
+	 * <p>Campo <code>IDEMAIL</code>, &iacute;ndice: <code>5</code>, tipo: <code>ALFANUMERICO</code>
+	 */
+	@Campo(indice = 5, nombre = "IDEMAIL", tipo = TipoCampo.ALFANUMERICO, longitudMinima = 15, longitudMaxima = 15)
+	private String idemail;
+
+	/**
+	 * <p>Campo <code>CONMAIL</code>, &iacute;ndice: <code>6</code>, tipo: <code>ALFANUMERICO</code>
+	 */
+	@Campo(indice = 6, nombre = "CONMAIL", tipo = TipoCampo.ALFANUMERICO, longitudMinima = 1, longitudMaxima = 1)
+	private String conmail;
+
+	/**
+	 * <p>Campo <code>ESTAFIL</code>, &iacute;ndice: <code>7</code>, tipo: <code>ALFANUMERICO</code>
+	 */
+	@Campo(indice = 7, nombre = "ESTAFIL", tipo = TipoCampo.ALFANUMERICO, longitudMinima = 1, longitudMaxima = 1)
+	private String estafil;
+
+}

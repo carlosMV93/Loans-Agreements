@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<assembly>
+    <id>sn-mock</id>
+    <formats>
+        <format>jar</format>
+    </formats>
+    <includeBaseDirectory>false</includeBaseDirectory>
+    <fileSets>
+        <fileSet>
+            <directory>target/classes/com/bbva/pzic/loansagreements/business</directory>
+            <outputDirectory>com/bbva/pzic/loansagreements/business</outputDirectory>
+        </fileSet>
+        <fileSet>
+            <directory>target/classes/com/bbva/pzic/loansagreements/dao</directory>
+            <outputDirectory>com/bbva/pzic/loansagreements/dao</outputDirectory>
+            <excludes>
+                <exclude>
+                    **/model/*/Transaccion*.class
+                </exclude>
+            </excludes>
+        </fileSet>
+        <fileSet>
+            <directory>target/classes/com/bbva/pzic/loansagreements/canonic</directory>
+            <outputDirectory>com/bbva/pzic/loansagreements/canonic</outputDirectory>
+        </fileSet>
+        <fileSet>
+            <directory>target/classes/com/bbva/pzic/loansagreements/util</directory>
+            <outputDirectory>com/bbva/pzic/loansagreements/util</outputDirectory>
+        </fileSet>
+        <fileSet>
+            <directory>target/classes/META-INF</directory>
+            <outputDirectory>META-INF</outputDirectory>
+        </fileSet>
+    </fileSets>
+</assembly>
